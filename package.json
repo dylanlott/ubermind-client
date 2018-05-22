@@ -1,7 +1,7 @@
 {
-  "name": "babel-webpack-package-boilerplate",
-  "version": "2.0.0",
-  "description": "boilerplate for building an npm package with next-gen javascript transpilation through babel and tree-shaking compilation through webpack",
+  "name": "ubermind-client",
+  "version": "0.0.1",
+  "description": "client library for the ubermind platform",
   "bin": {
     "babel-webpack-package-boilerplate": "./bin/main.js"
   },
@@ -35,27 +35,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resisttheurge/babel-webpack-package-boilerplate.git"
+    "url": "git+https://github.com/dylanlott/ubermind-client.git"
   },
   "keywords": [
-    "babel",
-    "es2015",
-    "es2015+",
-    "es6",
-    "webpack",
-    "webpack 2",
-    "npm",
-    "yarn",
-    "build",
-    "publishing",
-    "boilerplate"
+    "firebase",
+    "mongo",
+    "query",
+    "automatic",
+    "push",
+    "webhook",
+    "REST",
+    "api",
+    "socket.io"
   ],
-  "author": "Peter Zastoupil <peterzastoupil@gmail.com>",
-  "license": "ISC",
+  "author": "Dylan Lott <lott.dylan@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/resisttheurge/babel-webpack-package-boilerplate/issues"
+    "url": "https://github.com/dylanlott/ubermind-client/issues"
   },
-  "homepage": "https://github.com/resisttheurge/babel-webpack-package-boilerplate#readme",
+  "homepage": "https://github.com/resisttheurge/ubermind-client#readme",
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
@@ -66,7 +64,7 @@
     "bind-infix-proxy": "^1.0.0",
     "cross-env": "^3.1.4",
     "jsverify": "^0.7.4",
-    "mocha": "^3.2.0",
+    "mocha": "^5.2.0",
     "mocha-webpack": "^0.7.0",
     "source-map-support": "^0.4.11",
     "standard": "^8.6.0",
